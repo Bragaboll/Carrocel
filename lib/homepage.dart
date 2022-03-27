@@ -65,8 +65,8 @@ class _HomePageState extends State<HomePage> {
         children: _listSlide.map((i) {
           return Container(
             margin: const EdgeInsets.all(10),
-            height: 10,
-            width: 10,
+            height: 15,
+            width: 15,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30),
                 color: currentPage == i['id'] ? Colors.red : Colors.black),
