@@ -17,6 +17,8 @@ class _HomePageState extends State<HomePage> {
     {'id': 0, 'image': 'assets/images/img1.png'},
     {'id': 1, 'image': 'assets/images/img2.jpg'},
     {'id': 2, 'image': 'assets/images/img3.jpg'},
+    {'id': 3, 'image': 'assets/images/img4.jpg'},
+    {'id': 4, 'image': 'assets/images/img5.jpg'},
   ];
   @override
   void initState() {
